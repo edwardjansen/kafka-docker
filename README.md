@@ -18,7 +18,7 @@ machine.
 Make sure you install the requirements (which is only kafka-python). This is necessary since we run the clients locally.
 Then, the servers can be launched by simply going
 ```
-docker-compose -f simple-docker-kafka-config.yml
+docker-compose -f simple-docker-kafka-config.yml up
 ```
 Open a new terminal and activate the Consumer client
 ```
